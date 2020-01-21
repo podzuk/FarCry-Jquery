@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/Select1.png);
+  background-size: cover; }
+
+.main_block {
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .main_block__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #2b3040; }
+  .main_block__item1 {
+    width: 150px;
+    height: 125px; }
+  .main_block__content_rating {
+    width: 100%;
+    height: 375px;
+    background-color: #212534;
+    position: absolute; }
+  .main_block__content_buy {
+    width: 100%;
+    height: 375px;
+    background-color: #212534;
+    position: absolute; }
+  .main_block__content_inform {
+    width: 100%;
+    height: 375px;
+    background-color: #212534;
+    position: absolute; }
+  .main_block__score {
+    position: absolute;
+    top: 60px;
+    right: 40px; }
+  .main_block__gi {
+    position: absolute;
+    left: 50px;
+    top: 70px; }
+  .main_block__stars {
+    position: absolute;
+    left: 50px;
+    top: 300px; }
+  .main_block__name {
+    position: absolute;
+    left: 230px;
+    top: 50px; }
+  .main_block__sale {
+    position: absolute; }
+  .main_block__button {
+    width: 164px;
+    height: 55px;
+    text-align: center;
+    background: #13E28D;
+    border: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FDFDFD; }
+  .main_block__title {
+    position: absolute;
+    top: 100px; }
+  .main_block__text {
+    position: absolute;
+    top: 140px; }
+  .main_block__sale {
+    position: absolute;
+    top: 260px; }
+  .main_block__price {
+    position: absolute;
+    top: 270px; }
+  .main_block__button {
+    position: absolute;
+    top: 270px;
+    left: 400px; }
+  .main_block__content_buy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  .main_block__content_rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  .main_block__content_inform {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  .main_block__left {
+    height: 100%;
+    width: 230px; }
+  .main_block__right {
+    height: 100%;
+    width: 370px; }
+  .main_block__firstName {
+    margin-top: 70px; }
+  .main_block__google {
+    position: absolute;
+    top: 150px;
+    left: 385px; }
+  .main_block__apple {
+    position: absolute;
+    top: 150px; }
+
+.main_block__item3 {
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #8d91a3;
+  padding-bottom: 25px;
+  margin-left: 10px; }
+
+.main_block__item2 {
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #8d91a3;
+  padding-bottom: 25px;
+  margin-left: 10px; }
+
+.main_block__item {
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #8d91a3;
+  padding-bottom: 25px;
+  margin-left: 10px; }
+
+.lol {
+  margin-left: 65px;
+  margin-top: 30px; }
+
+.id1 .main_block__item3 {
+  color: white;
+  border-bottom: 2px solid white;
+  border-radius: 1px; }
+
+.id2 .main_block__item2 {
+  color: white;
+  border-bottom: 2px solid white;
+  border-radius: 1px; }
+
+.id3 .main_block__item {
+  color: white;
+  border-bottom: 2px solid white;
+  border-radius: 1px; }
+
+h1 {
+  position: absolute;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  text-align: center;
+  color: white; }
+
+h2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #FDFDFD; }
+
+h4 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #FEDC3F; }
+
+h3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #B7BACD; }

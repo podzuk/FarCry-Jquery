@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/Select1.png);
+    background-size: cover;
+}
+.main_block{
+position: absolute;
+width: 600px;
+height: 500px;
+margin: auto;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+box-sizing: border-box;
+    &__header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #2b3040;
+    }
+    &__item1{
+      width: 150px;
+      height: 125px;
+    }
+
+    &__content_rating{
+        width: 100%;
+        height: 375px;
+        background-color: #212534;
+        position: absolute;
+        
+    }
+    &__content_buy{
+        width: 100%;
+        height: 375px;
+        background-color: #212534;
+        position: absolute;
+        
+    }
+    &__content_inform{
+        width: 100%;
+        height: 375px;
+        background-color: #212534;
+        position: absolute;
+       
+      }
+    &__score{
+        position: absolute;
+        top: 60px;
+        right: 40px;
+    }
+    &__gi{
+        position: absolute;
+        left: 50px;
+        top: 70px;
+    }
+    &__stars{
+        position: absolute;
+        left: 50px;
+        top: 300px;
+    }
+    &__name{
+        position: absolute;
+        left: 230px;
+        top: 50px;; 
+    }
+    &__sale{
+        position: absolute;
+    }
+    &__button{
+        width: 164px;
+        height: 55px;
+        text-align: center;
+        background: #13E28D;
+        border: none;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #FDFDFD;
+    }
+    &__title{
+        position: absolute;
+        top: 100px;
+    }
+    &__text{
+        position: absolute;
+        top: 140px;
+    }
+    &__sale{
+        position: absolute;
+        top: 260px;
+    }
+    &__price{
+        position: absolute;
+        top: 270px;
+    }
+    &__button{
+        position: absolute;
+        top: 270px;
+        left: 400px;
+    }
+    &__content_buy{
+        display: flex;
+        flex-direction: row;
+    }
+   &__content_rating{
+    display: flex;
+    flex-direction: row;
+   }
+    &__content_inform{
+        display: flex;
+        flex-direction: row;
+    }
+    &__left{
+        
+        height: 100%;
+        width: 230px;
+    }
+    &__right{
+        height: 100%;
+        width: 370px;   
+    }
+    &__firstName{
+        margin-top: 70px;
+    }
+    &__google{
+        position: absolute;
+        top: 150px;
+        left: 385px;
+    }
+    &__apple{
+        position: absolute;
+        top: 150px;
+    }
+}
+
+
+.main_block__item3{
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #8d91a3;
+    padding-bottom: 25px;
+    margin-left: 10px;
+}
+.main_block__item2{
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #8d91a3;
+    padding-bottom: 25px;
+    margin-left: 10px;
+}
+.main_block__item{
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #8d91a3;
+    padding-bottom: 25px;
+    margin-left: 10px;
+}
+.lol{
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+.id1{
+    .main_block__item3{
+       color: white;
+       border-bottom: 2px solid white;
+       border-radius: 1px;
+    }
+}
+.id2{
+    .main_block__item2{
+       color: white;
+       border-bottom: 2px solid white;
+       border-radius: 1px;
+    }
+}
+.id3{
+    .main_block__item{
+       color: white;
+       border-bottom: 2px solid white;
+       border-radius: 1px;
+    }
+}
+
+h1{
+position: absolute;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+text-align: center;
+color: white;
+}
+h2{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #FDFDFD;
+}
+h4{
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+color: #FEDC3F;
+}
+h3{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #B7BACD;
+}
